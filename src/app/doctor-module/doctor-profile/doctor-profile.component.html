@@ -1,1 +1,33 @@
-<p>doctor-profile works!</p>
+<section class="about-doctor">
+  <div class="about-container">
+
+
+    <div class="doctor-image">
+      <img src={{doctor.image}} alt={{doctor.name}} />
+    </div>
+
+
+    <div class="doctor-info">
+      <h2>{{doctor.name}}</h2>
+      <p class="quote">
+        {{doctor.quote}}
+      </p>
+
+
+      <div class="action-buttons">
+        <button class="btn btn-appointment">Agendar Cita</button>
+        <button class="btn btn-message">Enviar Mensaje</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="doctor-description">
+    <h3>Sobre el {{doctor.name}}</h3>
+    <p>
+      {{doctor.description}}
+    </p>
+  </div>
+
+
+</section>

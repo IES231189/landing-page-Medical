@@ -10,6 +10,9 @@ import { AboutClinicComponent } from './about-clinic/about-clinic.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    AboutClinicComponent
   ]
 })
 export class ClinicModule { }

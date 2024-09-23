@@ -10,6 +10,10 @@ import { ServicesComponentsComponent } from './services-components/services-comp
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    ServicesComponentsComponent
   ]
 })
+
 export class ClinicalServicesModule { }
