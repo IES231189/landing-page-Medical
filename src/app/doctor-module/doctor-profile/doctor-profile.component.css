@@ -1,0 +1,95 @@
+.about-doctor {
+  background-color:rgb(25, 113, 164 , 15%);
+  opacity: 80%;
+  border-radius: 2%;
+  text-outline: 0 0 #000;
+  margin-top: 10px;
+  height: 40rem;
+}
+
+.about-container {
+ display: flex;
+ flex-direction: row-reverse;
+ padding-top: 20px;
+ justify-content: space-between;
+
+}
+
+
+.doctor-image img {
+  margin-top: 1.5rem;
+  width: 500px;
+  height: 480px;
+  border-radius: 100%;
+  margin-right: 4rem;
+
+}
+
+.doctor-info {
+  width:20rem;
+  margin-left: 5rem;
+  padding: 5%;
+}
+
+.doctor-info h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font: optional;
+  font-size: xx-large;
+
+}
+
+.quote {
+font-size: larger;
+font:1em sans-serif;
+}
+
+.action-buttons {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn {
+ margin-bottom: 10px;
+ margin-left: 25px;
+ padding: 10px 15px;
+ border: 1px solid #000;
+ color: aliceblue;
+}
+
+.btn-appointment {
+  background-color: #000;
+
+}
+
+.btn-message {
+  background-color: #000;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.doctor-description {
+  display: block;
+  position: absolute;
+  background-color: aliceblue;
+  width: 60rem;
+  left: 10%;
+  padding: 60px;
+  margin: 1rem;
+  /*top: 95%;*/
+
+}
+
+.doctor-description h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.doctor-description p {
+  font: optional;
+  font-size: medium;
+  font: 1em sans-serif;
+}

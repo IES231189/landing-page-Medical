@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './Header/header-component/header-component.component';
+import { DoctorModuleModule } from './doctor-module/doctor-module.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HeaderComponentComponent } from './Header/header-component/header-compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DoctorModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

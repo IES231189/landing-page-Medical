@@ -10,6 +10,9 @@ import { DoctorProfileComponent } from './doctor-profile/doctor-profile.componen
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    DoctorProfileComponent
   ]
 })
 export class DoctorModuleModule { }
