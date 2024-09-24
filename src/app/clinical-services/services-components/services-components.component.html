@@ -1,1 +1,12 @@
-<p>services-components works!</p>
+<section class="container-medical">
+<h2>Servicios Médicos ofrecidos</h2>
+<div class="card-container">
+
+  <div *ngFor="let service of services" class="card">
+    <h3>{{ service.name }}</h3>
+    <p>{{ service.description }}</p>
+    <p>Precio: ${{ service.price }}</p>
+  </div>
+</div>
+</section>
+
