@@ -3,7 +3,7 @@
   opacity: 80%;
   border-radius: 2%;
   text-outline: 0 0 #000;
-  margin-top: 10px;
+  margin-top: 7rem;
   height: 40rem;
 }
 
@@ -74,12 +74,12 @@ font:1em sans-serif;
 .doctor-description {
   display: block;
   position: absolute;
-  background-color: aliceblue;
+  background-color:white;
   width: 60rem;
   left: 10%;
   padding: 60px;
   margin: 1rem;
-  /*top: 95%;*/
+  top: 95%;
 
 }
 

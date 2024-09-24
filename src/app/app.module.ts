@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './Header/header-component/header-component.component';
 import { DoctorModuleModule } from './doctor-module/doctor-module.module';
+import { ClinicModule } from './clinic/clinic.module';
+import { ClinicalServicesModule } from './clinical-services/clinical-services.module';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { DoctorModuleModule } from './doctor-module/doctor-module.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DoctorModuleModule
+    DoctorModuleModule,
+    ClinicalServicesModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
