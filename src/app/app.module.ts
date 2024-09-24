@@ -19,7 +19,7 @@ import { ClinicalServicesModule } from './clinical-services/clinical-services.mo
     AppRoutingModule,
     DoctorModuleModule,
     ClinicalServicesModule,
-
+    ClinicModule
   ],
   providers: [],
   bootstrap: [AppComponent]

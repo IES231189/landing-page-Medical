@@ -1,1 +1,13 @@
 
+<div class="doctor-description">
+
+  <div class="cards">
+    <div *ngFor="let service of services" class="card">
+      <img [src]="service.icon" [alt]="service.title" />
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.description }}</p>
+      <button>{{ service.buttonLabel }}</button>
+    </div>
+  </div>
+
+</div>
