@@ -1,9 +1,15 @@
-
 <app-header-component></app-header-component>
 <app-doctor-profile></app-doctor-profile>
 <app-services-components></app-services-components>
 <div class="container-clinical">
   <app-about-clinic></app-about-clinic>
 </div>
+
+<div class="contain-form">
+  <h1>Envía un mensaje</h1>
+  <app-contacto-form (formSubmitted)="handleFormSubmit($event)"></app-contacto-form>
+
+</div>
+<app-confirmation *ngIf="messageSent" message="!Tu mensaje ah sido Enviado¡"></app-confirmation>
 
 <router-outlet />

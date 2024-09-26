@@ -7,16 +7,22 @@ import { HeaderComponentComponent } from './Header/header-component/header-compo
 import { DoctorModuleModule } from './doctor-module/doctor-module.module';
 import { ClinicModule } from './clinic/clinic.module';
 import { ClinicalServicesModule } from './clinical-services/clinical-services.module';
+import { ContactoFormComponent } from './Contacto/contacto-form/contacto-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponentComponent
+    HeaderComponentComponent,
+    ContactoFormComponent,
+    ConfirmationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     DoctorModuleModule,
     ClinicalServicesModule,
     ClinicModule

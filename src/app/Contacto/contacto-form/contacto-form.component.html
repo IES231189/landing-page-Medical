@@ -1,1 +1,23 @@
-<p>contacto-form works!</p>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+
+  <label for="name">Nombre:</label>
+  <input id="name" formControlName="name" placeholder="Tu nombre">
+  <div *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched">
+    El nombre es requerido.
+  </div>
+
+  <label for="email">Correo:</label>
+  <input id="email" formControlName="email" placeholder="Tu correo">
+  <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
+    Ingresa un correo válido.
+  </div>
+
+  <label for="message">Mensaje:</label>
+  <textarea id="message" formControlName="message" placeholder="Tu mensaje"></textarea>
+  <div *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
+    El mensaje debe tener al menos 20 caracteres.
+  </div>
+
+  <button type="submit" [disabled]="contactForm.invalid">Enviar</button>
+</form>
